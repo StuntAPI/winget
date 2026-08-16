@@ -12,7 +12,7 @@ Installers:
       - RelativeFilePath: stunt.exe
         PortableCommandAlias: stunt
     InstallerUrl: https://github.com/stuntapi/stunt/releases/download/v0.39.0/stunt_0.39.0_Windows_arm64.zip
-    InstallerSha256: 82279bf923109ee9aeea95d86f3d14384c34d94afcb29433751fed27f21de253
+    InstallerSha256: 37ea0576eeb51dfed1ec9dc62430ccb9e9c75a4f4c795dd52fa016f1f92ca3fc
     UpgradeBehavior: uninstallPrevious
   - Architecture: x64
     NestedInstallerType: portable
@@ -20,7 +20,7 @@ Installers:
       - RelativeFilePath: stunt.exe
         PortableCommandAlias: stunt
     InstallerUrl: https://github.com/stuntapi/stunt/releases/download/v0.39.0/stunt_0.39.0_Windows_amd64.zip
-    InstallerSha256: a409141fe97542b8a4b5f48ee793da8c5c5ebe413deabe07eb052be6c822ee21
+    InstallerSha256: 479a9cdea7c88ae62ec3c3572a5be9b7acc90f37936074c10873d675e7703c77
     UpgradeBehavior: uninstallPrevious
 ManifestType: installer
 ManifestVersion: 1.12.0
