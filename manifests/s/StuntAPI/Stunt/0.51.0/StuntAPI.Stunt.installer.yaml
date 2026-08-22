@@ -4,7 +4,7 @@ PackageIdentifier: StuntAPI.Stunt
 PackageVersion: 0.51.0
 InstallerLocale: en-US
 InstallerType: zip
-ReleaseDate: "2026-08-21"
+ReleaseDate: "2026-08-22"
 Installers:
   - Architecture: x64
     NestedInstallerType: portable
@@ -12,7 +12,7 @@ Installers:
       - RelativeFilePath: stunt.exe
         PortableCommandAlias: stunt
     InstallerUrl: https://github.com/stuntapi/stunt/releases/download/v0.51.0/stunt_0.51.0_Windows_amd64.zip
-    InstallerSha256: aea40e0b02d9e9d68cfe573c689fa1e339df1d4fc0d0c0f12943c918d38aa6a8
+    InstallerSha256: ecbf1574be13ae71b3934240f5d9a4cef0cb121733f2c8dec9b851dafc4cf9cf
     UpgradeBehavior: uninstallPrevious
   - Architecture: arm64
     NestedInstallerType: portable
@@ -20,7 +20,7 @@ Installers:
       - RelativeFilePath: stunt.exe
         PortableCommandAlias: stunt
     InstallerUrl: https://github.com/stuntapi/stunt/releases/download/v0.51.0/stunt_0.51.0_Windows_arm64.zip
-    InstallerSha256: dbceed7564c9e66b17329870dea41791b21374286ef4b15a3f0317aabe4b093e
+    InstallerSha256: 8b9fec33f13667848e991b77ad6ab227facf220523cb1a55a70e91ff8c863b65
     UpgradeBehavior: uninstallPrevious
 ManifestType: installer
 ManifestVersion: 1.12.0
